@@ -7,7 +7,6 @@
 ![基于SPlayer](https://img.shields.io/badge/基于-SPlayer-green)
 ![AGPL-3.0](https://img.shields.io/badge/许可证-AGPL--3.0-red)
 
-> [!IMPORTANT]
 >
 > ### 🔥 二次开发项目声明
 >
@@ -20,6 +19,7 @@
 > **查看原项目：** [SPlayer](https://github.com/imsyy/SPlayer) | **对比原项目：** [查看差异](#与原项目对比)
 
 <br />
+</div>
 
 ## 🆚 与原项目对比
 
