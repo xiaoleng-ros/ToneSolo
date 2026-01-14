@@ -1,4 +1,4 @@
 packages:
-  - "."
+  - "packages/*"
   - "native/smtc-for-tonesolo"
   - "native/discord-rpc-for-tonesolo"

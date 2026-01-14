@@ -1,0 +1,27 @@
+{
+  "extends": "@electron-toolkit/tsconfig/tsconfig.node.json",
+  "include": [
+    "electron.vite.config.*",
+    "electron/**/*",
+    "electron/main/**/*.d.ts",
+    "electron/main/index.ts",
+    "electron/main/logger/index.ts",
+    "electron/main/store/index.ts",
+    "electron/main/utils.ts",
+    "electron/main/index.d.ts",
+    "electron/preload/index.d.ts",
+    "electron/preload/index.ts",
+    "src/assets/data/*",
+    "../core/src/types/shared.ts"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "types": ["electron-vite/node"],
+    "paths": {
+      "@core/*": ["../core/src/*"],
+      "@native": ["../../native/smtc-for-tonesolo"],
+      "@discord-rpc": ["../../native/discord-rpc-for-tonesolo"],
+      "@shared": ["../core/src/types/shared.ts"]
+    }
+  }
+}

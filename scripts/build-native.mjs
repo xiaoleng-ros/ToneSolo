@@ -40,7 +40,7 @@ try {
 if (process.platform === "win32") {
   try {
     console.log("[BuildNative] 构建 SMTC 模块...");
-    execSync("pnpm --filter smtc-for-tonesolo build", {
+    execSync("npx pnpm --filter smtc-for-tonesolo build", {
       stdio: "inherit",
     });
     console.log("[BuildNative] SMTC 模块构建成功");
