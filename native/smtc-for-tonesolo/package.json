@@ -1,5 +1,6 @@
 {
   "name": "smtc-for-tonesolo",
+  "version": "0.1.0",
   "devDependencies": {
     "@napi-rs/cli": "^3.5.0"
   },

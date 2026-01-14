@@ -82,9 +82,7 @@
     "ws": "^8.18.3"
   },
   "devDependencies": {
-    "@electron-toolkit/preload": "^3.0.1",
     "@electron-toolkit/tsconfig": "^2.0.0",
-    "@electron-toolkit/utils": "^4",
     "@fastify/cookie": "^11.0.2",
     "@fastify/http-proxy": "^11.4.1",
     "@fastify/multipart": "^9.3.0",
