@@ -2,6 +2,17 @@ import request from "@core/utils/request";
 import idMeta from "@core/assets/data/idMeta.json";
 
 /**
+ * 获取轮播图
+ * @param {number} type - 资源类型，0: pc / 1: android / 2: iphone / 3: ipad
+ */
+export const getBanner = (type: number = 1) => {
+  return request({
+    url: "/banner",
+    params: { type },
+  });
+};
+
+/**
  * 每日推荐 - 需要登录
  * @param {string} [type] - 推荐类型，songs 日推歌曲 / resource 推荐歌单
  */

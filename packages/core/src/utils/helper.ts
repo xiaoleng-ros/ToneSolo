@@ -8,7 +8,7 @@ import { convertToLocalTime } from "./time";
 import { useSettingStore } from "@core/stores";
 import { marked } from "marked";
 import { isElectron } from "./env";
-import SvgIcon from "../../../desktop/src/components/Global/SvgIcon.vue";
+
 import Fuse from "fuse.js";
 
 type AnyObject = { [key: string]: any };
@@ -20,25 +20,6 @@ type AnyObject = { [key: string]: any };
  */
 export const openLink = (url: string, target: "_self" | "_blank" = "_blank") => {
   window.open(url, target);
-};
-
-/**
- * 渲染图标
- * @param iconName 图标名称
- * @param option 图标选项（大小和样式）
- * @returns 图标组件
- */
-export const renderIcon = (
-  iconName: string,
-  option: {
-    size?: number;
-    style?: AnyObject;
-  } = {},
-) => {
-  const { size, style } = option;
-  return () => {
-    return h(SvgIcon, { name: iconName, size, style });
-  };
 };
 
 /**
