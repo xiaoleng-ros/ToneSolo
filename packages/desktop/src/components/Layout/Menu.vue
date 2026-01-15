@@ -22,7 +22,7 @@ import { useDataStore, useMusicStore, useSettingStore, useStatusStore } from "@c
 import type { CoverType } from "@core/types/main";
 import { isLogin } from "@core/utils/auth";
 import { isElectron } from "@core/utils/env";
-import { renderIcon } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { openCreatePlaylist } from "@core/utils/modal";
 import { debounce } from "lodash-es";
 import {

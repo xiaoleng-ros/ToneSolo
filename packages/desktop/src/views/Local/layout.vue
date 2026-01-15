@@ -169,7 +169,8 @@ import type { DropdownOption, MessageReactive } from "naive-ui";
 import { useLocalStore, useSettingStore } from "@core/stores";
 import { formatSongsList } from "@core/utils/format";
 import { debounce } from "lodash-es";
-import { changeLocalMusicPath, fuzzySearch, renderIcon } from "@core/utils/helper";
+import { changeLocalMusicPath, fuzzySearch } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { openBatchList } from "@core/utils/modal";
 import { usePlayerController } from "@core/core/player/PlayerController";
 

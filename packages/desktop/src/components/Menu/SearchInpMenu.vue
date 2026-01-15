@@ -15,7 +15,8 @@
 
 <script setup lang="ts">
 import type { DropdownOption } from "naive-ui";
-import { renderIcon, copyData, getClipboardData } from "@core/utils/helper";
+import { copyData, getClipboardData } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { useStatusStore } from "@core/stores";
 
 const emit = defineEmits<{

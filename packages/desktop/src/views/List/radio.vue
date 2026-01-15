@@ -65,7 +65,8 @@
 <script setup lang="ts">
 import type { DropdownOption, MessageReactive } from "naive-ui";
 import { formatCoverList, formatSongsList } from "@core/utils/format";
-import { renderIcon, copyData } from "@core/utils/helper";
+import { copyData } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { useDataStore } from "@core/stores";
 import { radioAllProgram, radioDetail } from "@core/api/radio";
 import { useListDetail } from "@/composables/List/useListDetail";

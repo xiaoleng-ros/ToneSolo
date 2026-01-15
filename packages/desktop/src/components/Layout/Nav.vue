@@ -100,7 +100,7 @@
 <script setup lang="ts">
 import type { DropdownOption } from "naive-ui";
 import { useSettingStore } from "@core/stores";
-import { renderIcon } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { openSetting } from "@core/utils/modal";
 import { isDev, isElectron } from "@core/utils/env";
 

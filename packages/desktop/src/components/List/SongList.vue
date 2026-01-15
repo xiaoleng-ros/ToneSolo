@@ -113,7 +113,7 @@ import { SongType, SortType } from "@core/types/main";
 import { useMusicStore, useStatusStore } from "@core/stores";
 import { entries, isEmpty } from "lodash-es";
 import { sortOptions } from "@core/utils/meta";
-import { renderIcon } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { usePlayerController } from "@core/core/player/PlayerController";
 import SongListMenu from "@/components/Menu/SongListMenu.vue";
 import VirtualScroll from "@/components/UI/VirtualScroll.vue";

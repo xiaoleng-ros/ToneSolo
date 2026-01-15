@@ -57,7 +57,7 @@
 <script setup lang="ts">
 import type { MenuOption, NScrollbar } from "naive-ui";
 import type { SettingType } from "@core/types/main";
-import { renderIcon } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { isElectron } from "@core/utils/env";
 import { useStatusStore } from "@core/stores";
 import packageJson from "@/../package.json";

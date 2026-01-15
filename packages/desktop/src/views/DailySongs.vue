@@ -52,8 +52,8 @@ import type { DropdownOption } from "naive-ui";
 import { useMusicStore } from "@core/stores";
 import { updateDailySongsData } from "@core/utils/auth";
 import { formatTimestamp } from "@core/utils/time";
-import { renderIcon } from "@core/utils/helper";
 import { openBatchList } from "@core/utils/modal";
+import { renderIcon } from "@/utils/icon";
 import { usePlayerController } from "@core/core/player/PlayerController";
 
 const player = usePlayerController();

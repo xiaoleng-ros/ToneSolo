@@ -20,7 +20,8 @@ import type { SongType } from "@core/types/main";
 import { NAlert, type DropdownOption } from "naive-ui";
 import { useStatusStore, useDataStore, useMusicStore } from "@core/stores";
 import { useDownloadManager } from "@core/core/resource/DownloadManager";
-import { renderIcon, copyData } from "@core/utils/helper";
+import { copyData } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { deleteCloudSong, importCloudSong } from "@core/api/cloud";
 import {
   openCloudMatch,

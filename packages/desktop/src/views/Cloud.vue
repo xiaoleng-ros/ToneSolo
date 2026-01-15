@@ -100,7 +100,8 @@ import type { DropdownOption } from "naive-ui";
 import { useDataStore } from "@core/stores";
 import { userCloud } from "@core/api/cloud";
 import { formatSongsList } from "@core/utils/format";
-import { fuzzySearch, renderIcon } from "@core/utils/helper";
+import { fuzzySearch } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { openBatchList } from "@core/utils/modal";
 import { usePlayerController } from "@core/core/player/PlayerController";
 

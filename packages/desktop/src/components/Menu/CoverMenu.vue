@@ -16,7 +16,8 @@
 <script setup lang="ts">
 import type { DropdownOption } from "naive-ui";
 import type { CoverType } from "@core/types/main";
-import { renderIcon, copyData } from "@core/utils/helper";
+import { copyData } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { useMusicStore, useStatusStore } from "@core/stores";
 
 const emit = defineEmits<{

@@ -60,7 +60,7 @@
 import { usePlayerController } from "@core/core/player/PlayerController";
 import { useDataStore, useSettingStore, useStatusStore } from "@core/stores";
 import { isElectron } from "@core/utils/env";
-import { renderIcon } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { openAutoClose, openChangeRate, openEqualizer } from "@core/utils/modal";
 import type { DropdownOption } from "naive-ui";
 

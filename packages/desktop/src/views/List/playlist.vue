@@ -80,14 +80,10 @@
 import type { DropdownOption, MessageReactive } from "naive-ui";
 import { SongType } from "@core/types/main";
 import { songDetail } from "@core/api/song";
-import {
-  playlistDetail,
-  playlistAllSongs,
-  deletePlaylist,
-  updatePlaylistPrivacy,
-} from "@core/api/playlist";
+import { playlistDetail, playlistAllSongs, deletePlaylist, updatePlaylistPrivacy } from "@core/api/playlist";
 import { formatCoverList, formatSongsList } from "@core/utils/format";
-import { renderIcon, copyData } from "@core/utils/helper";
+import { copyData } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import { isLogin, toLikePlaylist, updateUserLikePlaylist } from "@core/utils/auth";
 import { useDataStore } from "@core/stores";
 import { openBatchList, openUpdatePlaylist } from "@core/utils/modal";

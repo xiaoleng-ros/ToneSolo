@@ -212,7 +212,8 @@ import { useSongManager } from "@core/core/player/SongManager";
 import { useDataStore, useMusicStore, useSettingStore, useStatusStore } from "@core/stores";
 import { toLikeSong } from "@core/utils/auth";
 import { useTimeFormat } from "@core/composables/useTimeFormat";
-import { copyData, coverLoaded, renderIcon } from "@core/utils/helper";
+import { copyData, coverLoaded } from "@core/utils/helper";
+import { renderIcon } from "@/utils/icon";
 import {
   openAutoClose,
   openChangeRate,
